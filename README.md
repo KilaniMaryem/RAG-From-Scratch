@@ -13,6 +13,6 @@ In this project, I developed a Retrieval-Augmented Generation (RAG) pipeline fro
 # Implementing RAG from Scratch: How It Differs from Existing Solutions
 
 Building RAG from scratch differs significantly from using pre-built RAG frameworks in the following ways:
-Custom Document Processing: Instead of using pre-processed datasets, I implemented the entire document ingestion and processing pipeline (text extraction, cleaning, sentence splitting, chunking), providing more control over the granularity of chunks and the metadata captured.
-Manual Retrieval Pipeline: I wrote my own retrieval system using Sentence-Transformers for encoding text chunks and dot-product similarity for ranking, whereas traditional RAG implementations rely on pre-built similarity or retrieval modules. This gave me flexibility in embedding generation and search methodology.
+- Custom Document Processing: Instead of using pre-processed datasets, I implemented the entire document ingestion and processing pipeline (text extraction, cleaning, sentence splitting, chunking), providing more control over the granularity of chunks and the metadata captured.
+- Manual Retrieval Pipeline: I wrote my own retrieval system using Sentence-Transformers for encoding text chunks and dot-product similarity for ranking, whereas traditional RAG implementations rely on pre-built similarity or retrieval modules. This gave me flexibility in embedding generation and search methodology.
   
